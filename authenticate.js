@@ -17,7 +17,7 @@ passport.deserializeUser(function(id, done) {
     });
 });
 
-exports.google = passport.use(new GoogleStrategy({
+/* exports.google = passport.use(new GoogleStrategy({
 		clientID        : configAuth.googleAuth.clientID,
         clientSecret    : configAuth.googleAuth.clientSecret,
         callbackURL     : configAuth.googleAuth.callbackURL,
@@ -111,4 +111,4 @@ exports.googleValidate = passport.use(new GoogleValidate({
       }
       return done(err, profile);
   }
-));
+)); */
